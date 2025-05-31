@@ -110,28 +110,6 @@
 
     *   **可选但推荐 (为了更好的性能和功能):**
 
-        *   **FlashAttention-2 (如果GPU支持):**
-
-            ```bash
-
-            pip install flash-attn --no-build-isolation
-
-            ```
-
-        *   **Bitsandbytes (用于QLoRA - 4bit/8bit量化训练):**
-
-            ```bash
-
-            # Linux (推荐)
-
-            pip install bitsandbytes
-
-            # Windows (可能需要特定版本或从源码编译)
-
-            # pip install bitsandbytes-windows # (可能会过时，检查官方文档)
-
-            ```
-
         *   **DeepSpeed (用于大规模模型训练):**
 
             ```bash
